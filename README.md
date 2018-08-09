@@ -30,9 +30,9 @@ _bind the server on any IP_
 
 + **Process creation mode**<br>
 _depending on the impersonated user's privileges you can choose from:_
- + `CreateProcessWithToken` (needs `SeImpersonate`)
- + `CreateProcessAsUser` (needs `SeAssignPrimaryToken`)
- + `both`
+   - `CreateProcessWithToken` (needs `SeImpersonate`)
+   - `CreateProcessAsUser` (needs `SeAssignPrimaryToken`)
+   - `both`
 
 
 + **Process to launch**<br>
