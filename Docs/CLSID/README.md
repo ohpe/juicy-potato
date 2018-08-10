@@ -10,6 +10,6 @@
 ## How do I extract CLSIDs?
 Execute [`GetCLSID.ps1`](./GetCLSID.ps1) script.
 
-## How to I test CLSIDs?
-[Test](../Test)
+## How do I test CLSIDs?
+See [here](../Test)
 
