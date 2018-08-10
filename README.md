@@ -100,10 +100,11 @@ Stopping `DCOM` would certainly inhibit this exploit but could have a serious im
 
 ## References
 
-- [Rotten Potato - Privilege Escalation from Service Accounts to SYSTEM][4]
-- [Windows: DCOM DCE/RPC Local NTLM Reflection Elevation of Privilege][5]
-- [Potatoes and Tokens](https://decoder.cloud/2018/01/13/potato-and-tokens/)
-- [Social Engineering the Windows Kernel by James Forshaw](https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw)
+* [Rotten Potato - Privilege Escalation from Service Accounts to SYSTEM][4]
+* [Windows: DCOM DCE/RPC Local NTLM Reflection Elevation of Privilege][5]
+* [Potatoes and Tokens](https://decoder.cloud/2018/01/13/potato-and-tokens/)
+* [The lonely Potato](http://decoder.cloud/2017/12/23/the-lonely-potato/)
+* [Social Engineering the Windows Kernel by James Forshaw](https://www.slideshare.net/Shakacon/social-engineering-the-windows-kernel-by-james-forshaw)
 
 [1]: https://github.com/breenmachine/RottenPotatoNG
 [2]: https://decoder.cloud/2017/12/23/the-lonely-potato/
