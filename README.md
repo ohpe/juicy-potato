@@ -1,7 +1,7 @@
 # Juicy Potato
 *A sugared version of [RottenPotatoNG][1], with a bit of juice, i.e. **another Local Privilege Escalation tool, from a Windows Service Accounts to NT AUTHORITY\SYSTEM***
 
-By [@decoder_i](https://twitter.com/decoder_it) & @ohpe
+By [@decoder_it](https://twitter.com/decoder_it) & [@giutro](https://twitter.com/Giutro)
 
 ## Summary
 [RottenPotatoNG][1] and its [variants][6] leverages the privilege escalation chain based on [`BITS`][3] [service](https://github.com/breenmachine/RottenPotatoNG/blob/4eefb0dd89decb9763f2bf52c7a067440a9ec1f0/RottenPotatoEXE/MSFRottenPotato/MSFRottenPotato.cpp#L126
