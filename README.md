@@ -11,8 +11,8 @@ We decided to weaponize [RottenPotatoNG][1]: **Say hello to Juicy Potato**.
 
 > For the theory, see [Rotten Potato - Privilege Escalation from Service Accounts to SYSTEM][4] and follow the chain of links and references.
 
-We discovered than, other than `BITS` there are a several COM servers we can abuse. They just need to:
-1. be instantiable by the current user, normally a "service user" which has impersonation privileges)
+We discovered that, other than `BITS` there are a several COM servers we can abuse. They just need to:
+1. be instantiable by the current user, normally a "service user" which has impersonation privileges
 2. implement the `IMarshal` interface
 3. run as an elevated user (SYSTEM, Administrator, ...)
 
