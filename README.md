@@ -1,10 +1,9 @@
 # Juicy Potato (abusing the golden privileges)
 *A sugared version of [RottenPotatoNG][1], with a bit of juice, i.e. **another Local Privilege Escalation tool, from a Windows Service Accounts to NT AUTHORITY\SYSTEM***
 
-
 ## Summary
 [RottenPotatoNG][1] and its [variants][6] leverages the privilege escalation chain based on [`BITS`][3] [service](https://github.com/breenmachine/RottenPotatoNG/blob/4eefb0dd89decb9763f2bf52c7a067440a9ec1f0/RottenPotatoEXE/MSFRottenPotato/MSFRottenPotato.cpp#L126
-) having the MiTM listener on `127.0.0.1:6666` ad when you have SeImpersonate or SeAssignPrimaryToken privileges. During a Windows build review we found a setup where `BITS` was was intentionally disabled and port `6666` was taken.
+) having the MiTM listener on `127.0.0.1:6666` ad when you have `SeImpersonate` or `SeAssignPrimaryToken` privileges. During a Windows build review we found a setup where `BITS` was was intentionally disabled and port `6666` was taken.
 
 We decided to weaponize [RottenPotatoNG][1]: **Say hello to Juicy Potato**.
 
