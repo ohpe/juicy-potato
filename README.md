@@ -73,7 +73,7 @@ Optional args:
 ```
 
 ## Example
-![](assets/poc.png.png)
+![](assets/poc.png)
 
 ## Final thoughts
 If the user has `SeImpersonate` or `SeAssignPrimaryToken` privileges then you are **SYSTEM**.
