@@ -15,13 +15,13 @@ We discovered that, other than `BITS` there are a several COM servers we can abu
 2. implement the `IMarshal` interface
 3. run as an elevated user (SYSTEM, Administrator, ...)
 
-After some testing we obtained and tested an extensive list of [interesting CLSID's](Docs) on several Windows versions.
+After some testing we obtained and tested an extensive list of [interesting CLSID's](CLSID/README.md) on several Windows versions.
 
 ## Juicy details
 JuicyPotato allows you to:
 
 + **Target CLSID**<br>
-_pick any CLSID you want. [Here](Docs) you can find the list organized by OS._
+_pick any CLSID you want. [Here](CLSID/README.md) you can find the list organized by OS._
 
 + **COM Listening port**<br>
 _define COM listening port you prefer (instead of the marshalled hardcoded 6666)_
@@ -49,7 +49,7 @@ _for a stealthy approach you can authenticate to an external RPC server_
 _useful if you want to authenticate to an external server and firewall is blocking port `135`..._
 
 + **TEST mode**<br>
-_mainly for testing purposes, i.e. testing CLSIDs. It creates the DCOM and prints the user of token. See [here for testing](Docs/Test)_
+_mainly for testing purposes, i.e. testing CLSIDs. It creates the DCOM and prints the user of token. See [here for testing](Test/README.md)_
 
 
 ## Usage
