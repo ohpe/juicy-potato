@@ -4,8 +4,9 @@ set /a port=10000
 SETLOCAL ENABLEDELAYEDEXPANSION
 
 FOR /F %%i IN (CLSID.list) DO (
-   set p=%port%
-   echo %%i
+   echo %%i !port!
    juicypotato.exe -z -l !port! -c %%i >> result.log
-   set /a port=port+1
+   set RET=!ERRORLEVEL!
+   :: echo !RET!
+   if "!RET!" == "1"  set /a port=port+1
 )
