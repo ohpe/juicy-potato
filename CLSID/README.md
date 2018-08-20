@@ -1,7 +1,7 @@
 # Windows CLSID
 
 * [Windows 7 Enterprise](./Windows_7_Enterprise)  
-* [Windows 8 Enterprise](./Windows_8.1_Enterprise)  
+* [Windows 8.1 Enterprise](./Windows_8.1_Enterprise)  
 * [Windows 10 Enterprise](./Windows_10_Enterprise)
 * [Windows 10 Professional](./Windows_10_Pro)
 * [Windows Server 2008 R2 Enterprise](./Windows_Server_2008_R2_Enterprise)
