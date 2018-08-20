@@ -83,6 +83,9 @@ It's nearly impossible to prevent the abuse of all these COM Servers. You could 
 The actual solution is to protect sensitive accounts and applications which run under the `* SERVICE` accounts.
 Stopping `DCOM` would certainly inhibit this exploit but could have a serious impact on the underlying OS.
 
+## Binaries [![Build status](https://ci.appveyor.com/api/projects/status/hcht6wpfjsrq5389?svg=true)](https://ci.appveyor.com/project/ohpe/juicy-potato)
+ An automatic build is available. Binaries can be downloaded from the Artifacts section [here](https://ci.appveyor.com/project/ohpe/juicy-potato/build/artifacts).
+ 
 ## Authors
 - [Andrea Pierini](https://twitter.com/decoder_it)
 - [Giuseppe Trotta](https://twitter.com/Giutro)
