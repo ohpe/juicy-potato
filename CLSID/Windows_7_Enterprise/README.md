@@ -1,4 +1,5 @@
 # Windows 7 Enterprise
+
 | LocalService          | AppId                                  | CLSID                                  | User                       |
 | --------------------- | -------------------------------------- | -------------------------------------- |----------------------------
 | ShellHWDetection      | {B1B9CBB2-B198-47E2-8260-9FD629A2B2EC} | {555F3418-D99E-4E51-800A-6E89CFD8B1D7} | NT AUTHORITY\SYSTEM        |
