@@ -724,7 +724,7 @@ int Juicy(wchar_t *clsid, BOOL brute)
 				result = CreateProcessWithTokenW(duped_token,
 					0,
 					processname,
-					processargs,
+					command,
 					0,
 					NULL,
 					NULL,
