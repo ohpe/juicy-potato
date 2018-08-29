@@ -86,6 +86,8 @@ Stopping `DCOM` would certainly inhibit this exploit but could have a serious im
 ## Binaries [![Build status](https://ci.appveyor.com/api/projects/status/hcht6wpfjsrq5389?svg=true)](https://ci.appveyor.com/project/ohpe/juicy-potato)
  An automatic build is available. Binaries can be downloaded from the Artifacts section [here](https://ci.appveyor.com/project/ohpe/juicy-potato/build/artifacts).
  
+ Also available in [BlackArch](https://blackarch.org).
+ 
 ## Authors
 - [Andrea Pierini](https://twitter.com/decoder_it)
 - [Giuseppe Trotta](https://twitter.com/Giutro)
