@@ -535,7 +535,6 @@ BOOL EnablePriv(HANDLE hToken, LPCTSTR priv)
 
 int wmain(int argc, wchar_t** argv)
 {
-	PotatoAPI* test = new PotatoAPI();
 	BOOL brute = FALSE;
 
 	strcpy(dcom_ip, "127.0.0.1");
