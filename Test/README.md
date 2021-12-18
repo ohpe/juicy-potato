@@ -1,6 +1,6 @@
 # Testing
 
-To test a list of CLSIDs use [test_clsid.bat](test_clsid.bat).
+To test a list of CLSIDs use [test_clsid.bat](test_clsid.bat) or [Test-CLSID.ps1](Test-CLSID.ps1).
 
 **NOTE** All our tests were conducted impersonating the `NT AUTHORITY\LOCAL SERVICE`. To have a shell as `NT AUTHORITY\Local Service`, use `psexec` (as Administrator)
 ```
